@@ -1,4 +1,4 @@
-{% set version = '0.2.2' %}
+{% set version = "0.2.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,12 +11,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bioset_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bioset/bioset_{{ version }}.tar.gz
-  sha256: 104e994214232fd560606f1d39e474c45ae0ec9129a60ccc4886fd9587d651d0
+  sha256: 31f0509f352e8881113929bfb7ea060566938cce4a02178314a446866a846c97
 
 build:
   noarch: generic
   merge_build_host: True  # [win]
-  number: 1000
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/

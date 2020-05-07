@@ -15,8 +15,8 @@ source:
 
 build:
   noarch: generic
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 2
   rpaths:
     - lib/R/lib/
     - lib/
@@ -46,12 +46,12 @@ test:
 about:
   home: https://github.com/randomchars42/bioset
   license: MIT
-  summary: Functions to help dealing with raw data from measurements, like reading and transforming
-    raw values organized in matrices, calculating and converting concentrations and
-    calculating precision of duplicates / triplicates / ... . It is compatible with
-    and building on top of some 'tidyverse'-packages.
+  summary: Functions to help dealing with raw data from measurements, like reading and transforming raw values organized in matrices, calculating and converting concentrations and calculating precision of duplicates / triplicates / ... . It is compatible with and building on top of some 'tidyverse'-packages.
   license_family: MIT
 
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
+    - LICENSE
 extra:
   recipe-maintainers:
     - conda-forge/r

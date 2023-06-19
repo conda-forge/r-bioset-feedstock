@@ -1,11 +1,11 @@
-About r-bioset
-==============
+About r-bioset-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bioset-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/randomchars42/bioset
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bioset-feedstock/blob/main/LICENSE.txt)
 
 Summary: Functions to help dealing with raw data from measurements, like reading and transforming raw values organized in matrices, calculating and converting concentrations and calculating precision of duplicates / triplicates / ... . It is compatible with and building on top of some 'tidyverse'-packages.
 
